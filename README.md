@@ -1,8 +1,8 @@
-# Team_Profile_Generator
+# Note_Taker    
 
 ## Description
 
-This challenge was to to create a list of Employee card with their information.  It will be prompted to answer some questions in Node.js.  Once questions are answer, it will create a HTML with employee Cards displaying summaries for each person.  
+This challenge was to to create note taker created by express which allow user to input information on HTML.  
 
 ## Table of Contents (Optional)
 
