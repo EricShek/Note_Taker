@@ -8,8 +8,11 @@ router.get("/api/notes",(req,res)=>{
 
 
 router.post("/api/notes", (req, res)=>{
-    db.push(req.body)
-    fs.writeFile("../db/db.json", JSON.stringify(db))
+    db.push(req.body);
+    fs.writeFile("../db/db.json", JSON.stringify(db), function(){
+     res.json(db)
+    })
+ 
 
     // console.log(req.body)
 
